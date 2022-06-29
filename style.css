@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+header,
+footer,
+.hero {
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+header {
+    font-size: 24px;
+}
+
+nav,
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.quote {
+    background: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote p {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.box,
+button {
+    background: #3882F6;
+    color: #F9FAF8;
+}
