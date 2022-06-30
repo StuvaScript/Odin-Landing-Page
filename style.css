@@ -3,21 +3,26 @@
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-header,
-footer,
-.hero {
-    background: #1F2937;
-    color: #F9FAF8;
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header {
+    padding: 15px 100px;
+    background: #1F2937;
+    color: #F9FAF8;
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 a {
@@ -31,6 +36,20 @@ nav,
     color: #E5E7EB;
 }
 
+main {
+    flex: 1;
+}
+
+.hero {
+    padding: 0 100px;
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+.info {
+    padding: 0 200px;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -42,19 +61,34 @@ h2 {
     color: #1F2937;
 }
 
-.quote {
+blockquote {
     background: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
+    padding: 0 200px;
 }
 
-.quote p {
+blockquote p {
     font-weight: 300;
     font-style: italic;
 }
 
-.box,
+.box {
+    padding: 0 100px;
+    background: #3882F6;
+    color: #F9FAF8;
+}
+
 button {
     background: #3882F6;
+    color: #F9FAF8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: #1F2937;
     color: #F9FAF8;
 }
