@@ -85,6 +85,12 @@ h1 {
     height: 100%;
 }
 
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
@@ -96,6 +102,8 @@ h1 {
     padding: 8px 50px;
     font-weight: 900;
     font-size: 18px;
+    background: #3882F6;
+    color: #F9FAF8;
 }
 
 /* info section */
@@ -131,9 +139,23 @@ h2 {
 .card-square {
     width: 200px;
     height: 200px;
-    border: solid 5px rgb(86, 173, 210);
+    border: solid 5px #3882F6;
     border-radius: 10px;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
+}
+
+.card-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-1 img {
+    object-position: -60px 0px;
+}
+
+.card-2 img {
+    object-position: 0 -20px;
 }
 
 /* quote section */
@@ -167,7 +189,7 @@ blockquote span {
 .box {
     box-sizing: border-box;
     padding: 125px 200px;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,17 +201,23 @@ blockquote span {
     background: #3882F6;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
+    padding: 0 110px;
 }
 
 h3 {
     font-size: 28px;
 }
 
-button {
+.sub-box button {
     background: #3882F6;
     color: #F9FAF8;
+    padding: 5px 25px;
+    border: solid 2px white;
+    border-radius: 7px;
+    font-size: 20px;
 }
 
 /* footer */
