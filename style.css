@@ -48,7 +48,7 @@ main {
 
 .hero {
     box-sizing: border-box;
-    padding: 100px 200px;
+    padding: 125px 200px;
     background: #1F2937;
     color: #F9FAF8;
     height: 500px;
@@ -57,8 +57,17 @@ main {
     align-items: center;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
 .hero-info {
+    height: 100%;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero-img {
@@ -81,19 +90,39 @@ main {
 }
 
 .info {
-    padding: 0 300px;
+    box-sizing: border-box;
+    padding: 40px 300px 100px;
     height: 500px;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    line-height: 1.25em;
+    text-align: center;
+}
+
+.card-square {
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgb(86, 173, 210);
+    border-radius: 10px;
+    margin-bottom: 5px;;
 }
 
 blockquote {
