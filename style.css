@@ -1,3 +1,6 @@
+
+/* largest selectors */
+
 * {
     margin: 0;
     font-family: 'Roboto', Arial, sans-serif;
@@ -9,8 +12,10 @@ body {
     height: 100vh;
 }
 
+/* header */
+
 header {
-    padding: 15px 200px;
+    padding: 25px 200px;
     background: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
@@ -42,9 +47,13 @@ nav {
     color: #E5E7EB;
 }
 
+/* main content */
+
 main {
     flex: 1;
 }
+
+/* hero section */
 
 .hero {
     box-sizing: border-box;
@@ -89,6 +98,8 @@ h1 {
     font-size: 18px;
 }
 
+/* info section */
+
 .info {
     box-sizing: border-box;
     padding: 40px 300px 100px;
@@ -125,18 +136,33 @@ h2 {
     margin-bottom: 5px;;
 }
 
+/* quote section */
+
 blockquote {
     background: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     padding: 0 300px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.25em;
 }
 
 blockquote p {
     font-weight: 300;
     font-style: italic;
 }
+
+blockquote span {
+    align-self: end;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+/* last big box */
 
 .box {
     padding: 0 200px;
@@ -150,11 +176,13 @@ button {
     color: #F9FAF8;
 }
 
+/* footer */
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 35px;
     background: #1F2937;
     color: #F9FAF8;
 }
