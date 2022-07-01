@@ -16,7 +16,8 @@ body {
 
 header {
     padding: 25px 200px;
-    background: #1F2937;
+    /*background: #1F2937;*/
+    background: #371f1f;
     color: #F9FAF8;
     font-size: 24px;
     display: flex;
@@ -58,7 +59,8 @@ main {
 .hero {
     box-sizing: border-box;
     padding: 125px 200px;
-    background: #1F2937;
+    /*background: #1F2937;*/
+    background: #371f1f;
     color: #F9FAF8;
     height: 500px;
     display: flex;
@@ -102,7 +104,8 @@ h1 {
     padding: 8px 50px;
     font-weight: 900;
     font-size: 18px;
-    background: #3882F6;
+    /*background: #3882F6;*/
+    background: #f63838;
     color: #F9FAF8;
 }
 
@@ -116,12 +119,15 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background: rgb(27, 27, 27);
+    color: #F9FAF8;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    /*color: #1F2937;*/
+    color: #F9FAF8;
 }
 
 .container {
@@ -139,7 +145,8 @@ h2 {
 .card-square {
     width: 200px;
     height: 200px;
-    border: solid 5px #3882F6;
+    /*border: solid 5px #3882F6;*/
+    border: solid 5px #f63838;
     border-radius: 10px;
     margin-bottom: 5px;
 }
@@ -161,8 +168,10 @@ h2 {
 /* quote section */
 
 blockquote {
-    background: #E5E7EB;
-    color: #1F2937;
+    /*background: #E5E7EB;*/
+    background: #71727488;
+    /*color: #1F2937;*/
+    color: #371f1f;
     font-size: 36px;
     padding: 0 300px;
     height: 500px;
@@ -193,12 +202,14 @@ blockquote span {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(27, 27, 27);
 }
 
 .sub-box {
     flex: 1;
     height: 100%;
-    background: #3882F6;
+    /*background: #3882F6;*/
+    background: #f63838;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -212,7 +223,8 @@ h3 {
 }
 
 .sub-box button {
-    background: #3882F6;
+    /*background: #3882F6;*/
+    background: #f63838;
     color: #F9FAF8;
     padding: 5px 25px;
     border: solid 2px white;
@@ -227,6 +239,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 35px;
-    background: #1F2937;
+    /*background: #1F2937;*/
+    background: #371f1f;
     color: #F9FAF8;
 }
