@@ -165,10 +165,26 @@ blockquote span {
 /* last big box */
 
 .box {
-    padding: 0 200px;
+    box-sizing: border-box;
+    padding: 125px 200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-box {
+    flex: 1;
+    height: 100%;
     background: #3882F6;
     color: #F9FAF8;
-    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    font-size: 28px;
 }
 
 button {
